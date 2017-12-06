@@ -1,0 +1,14 @@
+{
+  "name": "speedtest",
+  "version": "1.0.0",
+  "description": "Executes a bash script every 1 minute for testing internet bandwidth using speedtest.net, outputs results to text file",
+  "main": "speedtest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stéphane Fréchette",
+  "license": "ISC",
+  "dependencies": {
+    "node-schedule": "^1.2.5"
+  }
+}
