@@ -1,4 +1,5 @@
 .DS_Store
 .vscode/
-data/
 node_modules/
+.idea/
+speedtest_log.txt

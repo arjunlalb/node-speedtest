@@ -9,6 +9,7 @@
   "author": "Stéphane Fréchette",
   "license": "ISC",
   "dependencies": {
+    "minimist": "^1.2.8",
     "node-schedule": "^1.2.5"
   }
 }
