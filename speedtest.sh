@@ -1,5 +1,6 @@
 #speedtest
 #!/bin/bash
 NOW=$(date +"%Y%m%d")
-OUTPUT=`speedtest-cli --csv --secure`
-echo "$OUTPUT" | tee -a data/speedtest_$NOW.txt
+touch speedtest_log.txt
+OUTPUT=`speedtest-cli`
+echo "$OUTPUT" | tee -a speedtest_log.txt
