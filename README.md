@@ -11,4 +11,4 @@ Node - install using `brew install node` if required.
 2. `cd node-speedtest`
 3. `chmod +x speedtest.sh` if required.
 4. `npm install` - installing node dependencies
-5. `node speedtest.js` - runs the script. Keep the process running to collect over a long period.
+5. `node speedtest.js -s <comma separated list of SSIDs to monitor> -f <frequency in minutes>` - runs the script. Keep the process running to collect over a long period.
